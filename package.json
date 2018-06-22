@@ -1,0 +1,26 @@
+{
+  "name": "ezzy-dev-profiles",
+  "description": "Development profiles to start the application in various ways.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Moises Romero",
+    "url": "http://ezzygemini.com",
+    "email": "ezzygemini@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ezzygemini/ezzy-dev-profiles.git"
+  },
+  "scripts": {
+    "test": "node node_modules/ezzy-testing",
+    "build": "npm run coverage"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "ezzy-logger": "^1.0.0"
+  },
+  "devDependencies": {
+    "ezzy-testing": "^0.1.2¡4"
+  },
+  "bin": "./bin/start-dev.js"
+}
